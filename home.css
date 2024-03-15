@@ -1,0 +1,155 @@
+body{
+    padding:0;
+    margin:0;
+}
+.container-body{
+    position:relative;
+    font-family:Oswald;
+    color:rgb(255, 255, 255);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.container-header{
+    display:flex;
+    justify-content:space-between;
+    position:absolute;
+    width:100%;
+    top:0;
+}
+.welcome{
+    font-family:Playfair Display;
+    font-size:50px;
+    margin-left:30px;
+}
+.appointment{
+    text-decoration: none;
+    font-size:20px;
+    font-weight:400;
+    text-decoration:none;
+    margin:none;
+    color:#cd9f62;
+    font-family:Oswald;
+}
+.appointment:hover{
+    text-decoration:underline;
+}
+button{
+    width:100px;
+    height:45px;
+    background:#cd9f62;
+    color:white;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    font-size:15px;
+    font-family:Oswald;
+    font-weight:600;
+    margin:45px;
+    margin-top:65px;
+}
+button:hover{
+    background-color:white;
+    color:#cd9f62;
+}
+.container-hero{
+    width:100%;
+    height:100vh;
+    background: url(img/thumbnail10.jpg) no-repeat;
+    background-size: cover;
+    font-weight:200;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    margin:0;
+}
+.hero-title{
+    font-size:100px;
+    font-weight:300;
+    font-family:Playfair Display;
+    margin:0;
+}
+.hero-desc{
+    font-size:20px;
+    margin-top:40px;
+}
+.appointment-button{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size:17px;
+    font-family:Oswald;
+    font-weight:400;
+    background-color:#cd9f62;
+    color:white;
+    border-radius: 40px;
+    width:150px;
+    margin-top:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+}
+.appointment-button:hover{
+    background-color:white;
+    color:#cd9f62;
+}
+.container-services{
+    width:800px;
+    height:370px;
+    color:black;
+    font-size:20px;
+    background-size: cover;
+}
+.title{
+    font-size:50px;
+    font-weight:300;
+    font-family:Playfair Display;
+    margin-bottom:0;
+}
+hr{
+    width:120px;
+    height:2px;
+    background-color:#cd9f62;
+    border:none;
+    margin-left:0;
+    margin-bottom:40px;
+}
+.icons{
+    height:80px;
+}
+.icon-services{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    height:150px;
+    margin:0;
+}
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+}
+.icon-description{
+    font-family:Oswald;
+    font-size:20px;
+    font-weight: 300;
+}
+.container-about{
+    width:800px;
+    height:300px;
+    color:black;
+    font-size:20px;
+}
+.about{
+    font-size:50px;
+    font-weight:300;
+    font-family:Playfair Display;
+    margin-bottom:0;
+}
+.container-contact{
+    width:800px;
+    height:300px;
+    color:black;
+}

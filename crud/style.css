@@ -1,0 +1,31 @@
+
+
+button{
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    border: solid black;
+    
+    margin: 10px;
+    color: brown;
+    background-color: white;
+
+
+}
+button :hover{
+    background-color: brown;
+    color: white;
+    opacity: 40%;
+
+}
+button ::after{
+    color: red;
+    opacity: 40%;
+    transition-duration: 0.5ms;
+}
+
+p{
+    padding: 5px;
+    margin: 0px;
+    font-size: 20px;
+}
